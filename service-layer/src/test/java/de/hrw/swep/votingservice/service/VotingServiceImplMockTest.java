@@ -44,7 +44,7 @@ public class VotingServiceImplMockTest {
 		when(dbReadMock.getStatusOfQuestion(2)).thenReturn(false);
 
 ///		
-
+  
 //shsahahahas
 		votingService = new VotingServiceImpl(dbReadMock, dbWriteMock);
 	}
