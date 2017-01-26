@@ -47,6 +47,7 @@ public class VotingServiceImplMockTest {
 		when(dbReadMock.getDescriptionOfQuestion(3)).thenReturn(
 				"Wie finden Sie Games of Thrones?");
 		when(dbReadMock.getVotesForQuestion(3)).thenReturn(votes);
+		
 		when(dbReadMock.getStatusOfQuestion(3)).thenReturn(true);
 
 		votingService = new VotingServiceImpl(dbReadMock, dbWriteMock);

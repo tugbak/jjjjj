@@ -162,6 +162,7 @@ public class VotingServiceImplIntegrationTest {
 		votingService.deleteQuestion(question);
 		assertEquals(4, votingService.getAllQuestions().size());
 		// Ich weiﬂ leider nicht , wie man den Test korrekt  implemebtiert
+		
 	}
 
 	@Test
